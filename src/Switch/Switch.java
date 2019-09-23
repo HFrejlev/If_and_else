@@ -24,6 +24,10 @@ public class Switch {
                 break;
             case 4:
                 System.out.println("You are the man!");
+                break;
+            default:
+                System.out.println("Nothing to be found here.");
+                //If none of the cases are valid with the variable, the printed line would be the default.
         }
     }
 }
